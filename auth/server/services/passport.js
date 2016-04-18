@@ -24,7 +24,7 @@ const localLogin = new LocalStrategy(locatlOptions, function(email, passowrd, do
     }
 
   // compare passwords – is 'password' equal to user.password?
-  })
+  });
 });
 
 // Setup options for JWT Strategy
