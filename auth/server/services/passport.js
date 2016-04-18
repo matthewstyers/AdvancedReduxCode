@@ -9,7 +9,7 @@ const LocalStrategy = require('passport-local');
 const locatlOptions = {
   usernameField: 'email'
 };
-const localLogin = new LocalStrategy(locatlOptions, function(email, passowrd, done) {
+const localLogin = new LocalStrategy(locatlOptions, function(email, password, done) {
   // Verify this username and password, call done with the user
   // if it is the correct username and password
   // otherwise call done with false
